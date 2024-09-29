@@ -938,11 +938,11 @@
           <div class="border-t border-dashed"></div>
 
           <!-- main -->
-          <div class="mt-12 p-[50px] rounded-xl border border[#424247]">
+          <div class="lg:flex gap-12 my-8 lg:my-16 p-4 lg:p-0">
             <!-- left-side -->
-            <div class="flex flex-col gap-4">
+            <div class="flex lg:inline-flex flex-col  rounded-xl gap-4 border border[#424247] p-[50px]">
               <!-- card 1 -->
-              <div class="card bg-[#BCED6D1A] w-96">
+              <div class="card bg-[#BCED6D1A] lg:w-96">
                 <div class="card-body">
                   <img class="w-12 mb-4" src="Images/Group 1171275317.png" alt="">
                   <p class="paragraph-color">Phone Number:</p>
@@ -950,7 +950,7 @@
                 </div>
               </div>
               <!-- card 2 -->
-              <div class="card bg-[#FDDD5F1A] w-96">
+              <div class="card bg-[#FDDD5F1A] lg:w-96">
                 <div class="card-body">
                   <img class="w-12 mb-4" src="Images/Group 1171275318.png" alt="">
                   <p class="paragraph-color">Email:</p>
@@ -958,7 +958,7 @@
                 </div>
               </div>
               <!-- card 3 -->
-              <div class="card bg-[#629CF31A] w-96">
+              <div class="card bg-[#629CF31A] lg:w-96">
                 <div class="card-body">
                   <img class="w-12 mb-4" src="Images/Group 1171275321.png" alt="">
                   <p class="paragraph-color">Location:</p>
@@ -969,20 +969,64 @@
             </div>
 
             <!-- right-side -->
-             <div>
+             <div class="mt-8">
 
-              
+              <div class="flex flex-col lg:flex-row gap-4 lg:gap-8 mb-4 lg:mb-8">
+                <!-- label 1 -->
+                <label class="form-control">
+                  <div class="label">
+                    <span class="label-text text-[20px] font-bold mb-3">Your Name</span>
+                  </div>
+                  <input type="text" placeholder="Enter your full name" class=" lg:w-[480px] input text-[14px] bg-[#13131808] border-none h-[64px]" />
+                </label>
+                <!-- label 2 -->
+                <label class="form-control">
+                  <div class="label">
+                    <span class="label-text text-[20px] font-bold mb-3">Your Email</span>
+                  </div>
+                  <input type="text" placeholder="Enter your email" class=" lg:w-[480px] input text-[14px] bg-[#13131808] border-none h-[64px]" />
+                </label>
+              </div>
+              <div class="flex flex-col lg:flex-row gap-4 lg:gap-8 mb-4 lg:mb-8" >
+                <!-- label 3 -->
+                <label class="form-control">
+                  <div class="label">
+                    <span class="label-text text-[20px] font-bold mb-3">Subject</span>
+                  </div>
+                  <input type="text" placeholder="Enter your subject" class="lg:w-[480px] input text-[14px] bg-[#13131808] border-none h-[64px]" />
+                </label>
+                <!-- label 4 -->
+                <label class="form-control">
+                  <div class="label">
+                    <span class="label-text text-[20px] font-bold mb-3">Phone Number</span>
+                  </div>
+                  <input type="text" placeholder="Enter your phone number" class="lg:w-[480px] input text-[14px] bg-[#13131808] border-none h-[64px]" />
+                </label>
+              </div>
+              <div>
+                  <!-- label 5 -->
+                  <label class="form-control w-full">
+                    <div class="label">
+                      <span class="label-text text-[20px] font-bold mb-3">Message</span>
+                    </div>
+                    <textarea placeholder="Write your message here" class="textarea text-[14px] bg-[#13131808] p-4 placeholder-top-left align-text-top border-none h-[150px] lg:h-[294px]"></textarea>
+                  </label>
+                  <button class="mt-4 lg:mt-8 btn text-white w-full bg-[#FF4240]">Send Message</button>
+              </div>
 
              </div>
 
           </div>
 
+          <div class="border-t border-dashed"></div>
 
         </div>
 
       </section>
  
       <!-- Get in touch section ends here -->
+
+      <!--  -->
 
 
     </main>
